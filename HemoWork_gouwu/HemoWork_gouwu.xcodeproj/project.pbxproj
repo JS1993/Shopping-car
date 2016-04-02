@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFB2EAF21C89043D00282621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2EAF11C89043D00282621 /* main.m */; };
+		CFB2EAF51C89043D00282621 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2EAF41C89043D00282621 /* AppDelegate.m */; };
+		CFB2EAF81C89043D00282621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2EAF71C89043D00282621 /* ViewController.m */; };
+		CFB2EAFB1C89043D00282621 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB2EAF91C89043D00282621 /* Main.storyboard */; };
+		CFB2EAFD1C89043D00282621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB2EAFC1C89043D00282621 /* Assets.xcassets */; };
+		CFB2EB001C89043D00282621 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB2EAFE1C89043D00282621 /* LaunchScreen.storyboard */; };
+		CFB2EB0B1C89043E00282621 /* HemoWork_gouwuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2EB0A1C89043E00282621 /* HemoWork_gouwuTests.m */; };
+		CFB2EB161C89043E00282621 /* HemoWork_gouwuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB2EB151C89043E00282621 /* HemoWork_gouwuUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFB2EB071C89043E00282621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB2EAE51C89043D00282621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB2EAEC1C89043D00282621;
+			remoteInfo = HemoWork_gouwu;
+		};
+		CFB2EB121C89043E00282621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFB2EAE51C89043D00282621 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB2EAEC1C89043D00282621;
+			remoteInfo = HemoWork_gouwu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFB2EAED1C89043D00282621 /* HemoWork_gouwu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HemoWork_gouwu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB2EAF11C89043D00282621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFB2EAF31C89043D00282621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFB2EAF41C89043D00282621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFB2EAF61C89043D00282621 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFB2EAF71C89043D00282621 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFB2EAFA1C89043D00282621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB2EAFC1C89043D00282621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB2EAFF1C89043D00282621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFB2EB011C89043D00282621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB2EB061C89043E00282621 /* HemoWork_gouwuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HemoWork_gouwuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB2EB0A1C89043E00282621 /* HemoWork_gouwuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HemoWork_gouwuTests.m; sourceTree = "<group>"; };
+		CFB2EB0C1C89043E00282621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB2EB111C89043E00282621 /* HemoWork_gouwuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HemoWork_gouwuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB2EB151C89043E00282621 /* HemoWork_gouwuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HemoWork_gouwuUITests.m; sourceTree = "<group>"; };
+		CFB2EB171C89043E00282621 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB2EAEA1C89043D00282621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB2EB031C89043E00282621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB2EB0E1C89043E00282621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFB2EAE41C89043D00282621 = {
+			isa = PBXGroup;
+			children = (
+				CFB2EAEF1C89043D00282621 /* HemoWork_gouwu */,
+				CFB2EB091C89043E00282621 /* HemoWork_gouwuTests */,
+				CFB2EB141C89043E00282621 /* HemoWork_gouwuUITests */,
+				CFB2EAEE1C89043D00282621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB2EAEE1C89043D00282621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB2EAED1C89043D00282621 /* HemoWork_gouwu.app */,
+				CFB2EB061C89043E00282621 /* HemoWork_gouwuTests.xctest */,
+				CFB2EB111C89043E00282621 /* HemoWork_gouwuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB2EAEF1C89043D00282621 /* HemoWork_gouwu */ = {
+			isa = PBXGroup;
+			children = (
+				CFB2EAF31C89043D00282621 /* AppDelegate.h */,
+				CFB2EAF41C89043D00282621 /* AppDelegate.m */,
+				CFB2EAF61C89043D00282621 /* ViewController.h */,
+				CFB2EAF71C89043D00282621 /* ViewController.m */,
+				CFB2EAF91C89043D00282621 /* Main.storyboard */,
+				CFB2EAFC1C89043D00282621 /* Assets.xcassets */,
+				CFB2EAFE1C89043D00282621 /* LaunchScreen.storyboard */,
+				CFB2EB011C89043D00282621 /* Info.plist */,
+				CFB2EAF01C89043D00282621 /* Supporting Files */,
+			);
+			path = HemoWork_gouwu;
+			sourceTree = "<group>";
+		};
+		CFB2EAF01C89043D00282621 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFB2EAF11C89043D00282621 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFB2EB091C89043E00282621 /* HemoWork_gouwuTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB2EB0A1C89043E00282621 /* HemoWork_gouwuTests.m */,
+				CFB2EB0C1C89043E00282621 /* Info.plist */,
+			);
+			path = HemoWork_gouwuTests;
+			sourceTree = "<group>";
+		};
+		CFB2EB141C89043E00282621 /* HemoWork_gouwuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFB2EB151C89043E00282621 /* HemoWork_gouwuUITests.m */,
+				CFB2EB171C89043E00282621 /* Info.plist */,
+			);
+			path = HemoWork_gouwuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB2EAEC1C89043D00282621 /* HemoWork_gouwu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB2EB1A1C89043E00282621 /* Build configuration list for PBXNativeTarget "HemoWork_gouwu" */;
+			buildPhases = (
+				CFB2EAE91C89043D00282621 /* Sources */,
+				CFB2EAEA1C89043D00282621 /* Frameworks */,
+				CFB2EAEB1C89043D00282621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HemoWork_gouwu;
+			productName = HemoWork_gouwu;
+			productReference = CFB2EAED1C89043D00282621 /* HemoWork_gouwu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFB2EB051C89043E00282621 /* HemoWork_gouwuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB2EB1D1C89043E00282621 /* Build configuration list for PBXNativeTarget "HemoWork_gouwuTests" */;
+			buildPhases = (
+				CFB2EB021C89043E00282621 /* Sources */,
+				CFB2EB031C89043E00282621 /* Frameworks */,
+				CFB2EB041C89043E00282621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB2EB081C89043E00282621 /* PBXTargetDependency */,
+			);
+			name = HemoWork_gouwuTests;
+			productName = HemoWork_gouwuTests;
+			productReference = CFB2EB061C89043E00282621 /* HemoWork_gouwuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFB2EB101C89043E00282621 /* HemoWork_gouwuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB2EB201C89043E00282621 /* Build configuration list for PBXNativeTarget "HemoWork_gouwuUITests" */;
+			buildPhases = (
+				CFB2EB0D1C89043E00282621 /* Sources */,
+				CFB2EB0E1C89043E00282621 /* Frameworks */,
+				CFB2EB0F1C89043E00282621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFB2EB131C89043E00282621 /* PBXTargetDependency */,
+			);
+			name = HemoWork_gouwuUITests;
+			productName = HemoWork_gouwuUITests;
+			productReference = CFB2EB111C89043E00282621 /* HemoWork_gouwuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB2EAE51C89043D00282621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CFB2EAEC1C89043D00282621 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CFB2EB051C89043E00282621 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFB2EAEC1C89043D00282621;
+					};
+					CFB2EB101C89043E00282621 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CFB2EAEC1C89043D00282621;
+					};
+				};
+			};
+			buildConfigurationList = CFB2EAE81C89043D00282621 /* Build configuration list for PBXProject "HemoWork_gouwu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB2EAE41C89043D00282621;
+			productRefGroup = CFB2EAEE1C89043D00282621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB2EAEC1C89043D00282621 /* HemoWork_gouwu */,
+				CFB2EB051C89043E00282621 /* HemoWork_gouwuTests */,
+				CFB2EB101C89043E00282621 /* HemoWork_gouwuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB2EAEB1C89043D00282621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB2EB001C89043D00282621 /* LaunchScreen.storyboard in Resources */,
+				CFB2EAFD1C89043D00282621 /* Assets.xcassets in Resources */,
+				CFB2EAFB1C89043D00282621 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB2EB041C89043E00282621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB2EB0F1C89043E00282621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB2EAE91C89043D00282621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB2EAF81C89043D00282621 /* ViewController.m in Sources */,
+				CFB2EAF51C89043D00282621 /* AppDelegate.m in Sources */,
+				CFB2EAF21C89043D00282621 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB2EB021C89043E00282621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB2EB0B1C89043E00282621 /* HemoWork_gouwuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB2EB0D1C89043E00282621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB2EB161C89043E00282621 /* HemoWork_gouwuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFB2EB081C89043E00282621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB2EAEC1C89043D00282621 /* HemoWork_gouwu */;
+			targetProxy = CFB2EB071C89043E00282621 /* PBXContainerItemProxy */;
+		};
+		CFB2EB131C89043E00282621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFB2EAEC1C89043D00282621 /* HemoWork_gouwu */;
+			targetProxy = CFB2EB121C89043E00282621 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFB2EAF91C89043D00282621 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB2EAFA1C89043D00282621 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFB2EAFE1C89043D00282621 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB2EAFF1C89043D00282621 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFB2EB181C89043E00282621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFB2EB191C89043E00282621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFB2EB1B1C89043E00282621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HemoWork_gouwu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.HemoWork-gouwu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFB2EB1C1C89043E00282621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HemoWork_gouwu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.HemoWork-gouwu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFB2EB1E1C89043E00282621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HemoWork_gouwuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.HemoWork-gouwuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HemoWork_gouwu.app/HemoWork_gouwu";
+			};
+			name = Debug;
+		};
+		CFB2EB1F1C89043E00282621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HemoWork_gouwuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.HemoWork-gouwuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HemoWork_gouwu.app/HemoWork_gouwu";
+			};
+			name = Release;
+		};
+		CFB2EB211C89043E00282621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HemoWork_gouwuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.HemoWork-gouwuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HemoWork_gouwu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFB2EB221C89043E00282621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HemoWork_gouwuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.HemoWork-gouwuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HemoWork_gouwu;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB2EAE81C89043D00282621 /* Build configuration list for PBXProject "HemoWork_gouwu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB2EB181C89043E00282621 /* Debug */,
+				CFB2EB191C89043E00282621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB2EB1A1C89043E00282621 /* Build configuration list for PBXNativeTarget "HemoWork_gouwu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB2EB1B1C89043E00282621 /* Debug */,
+				CFB2EB1C1C89043E00282621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFB2EB1D1C89043E00282621 /* Build configuration list for PBXNativeTarget "HemoWork_gouwuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB2EB1E1C89043E00282621 /* Debug */,
+				CFB2EB1F1C89043E00282621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFB2EB201C89043E00282621 /* Build configuration list for PBXNativeTarget "HemoWork_gouwuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB2EB211C89043E00282621 /* Debug */,
+				CFB2EB221C89043E00282621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFB2EAE51C89043D00282621 /* Project object */;
+}
